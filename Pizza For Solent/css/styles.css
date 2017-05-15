@@ -1,0 +1,70 @@
+#header ul {
+ display: block;
+    text-align: center;
+    
+}
+
+#header li {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 30px;
+    
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+    background-color:lightyellow
+}
+
+#leftside{
+    width: 400px;
+    float: left;
+    text-align: center;
+    background-color:lightgoldenrodyellow
+        
+}
+
+#section{
+    width: 600px;
+    float: right;
+    text-align: center;
+    margin-right: 50px; 
+    background-color: lightgoldenrodyellow
+}
+
+#main{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+#footer{
+   position: absolute;
+    bottom: 0:
+    width: 100%;
+    
+}
+
+#map{
+    width: 600px;
+    float: left;
+    margin: 30px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+
+#contactf{
+    width: auto;
+    margin: 30px;
+    float: left;
+    text-align: center;
+}
+
+#contactContent{
+    height: 600px;
+}
+
+

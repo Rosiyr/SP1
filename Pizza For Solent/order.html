@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOLENT PIZZA</title>
+    <link rel"shortcut icon" href"favicon.ico" />
+   <script type ="text/javascript" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="main()">
+<div id="wrapper">
+	
+    <div id="header">
+		<ul>
+        <img src="images/smallpizza.jpg" alt="Small Pizza">
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="/order.html">Order</a></li>
+			<li><a href="/contact.html">Contact</a></li>
+            <img src="images/smallpizza.jpg" alt="Small Pizza">
+		</ul>
+        
+	</div>
+    
+    <form name="PizzaDes" onsubmit="return ValidateCheck(this)">
+        <fieldset>
+            <legend> Pizza Size </legend>
+                <p><input type="checkbox" name="Size"><label for="Size">X-Small <strong>£6</strong></label></p>
+                 <p><input type="checkbox" name="Size"><label for="Size">Small <strong>£9</strong></label></p>
+                 <p><input type="checkbox" name="Size"><label for="Size">Medium <strong>£13</strong></label></p>
+                 <p><input type="checkbox" name="Size"><label for="Size">Large <strong>£15</strong></label></p>
+                 <p><input type="checkbox" name="Size"><label for="Size">X-Large <strong>£18</strong></label></p>
+        </fieldset>
+    
+        <fieldset>
+            <legend> Select One or More Toppings </legend>
+                <p><input type="checkbox" name="topping"><label for="topping">Extra Cheese <strong>£0.20</strong></label></p>
+                <p><input type="checkbox" name="topping"><label for="topping">Peperoni <strong>£0.20</strong></label></p>
+                <p><input type="checkbox" name="topping"><label for="topping">Ham <strong>£0.20</strong></label></p>
+                <p><input type="checkbox" name="topping"><label for="topping">Pineapple <strong>£0.20</strong></label></p>
+                <p><input type="checkbox" name="topping"><label for="topping">Peppers <strong>£0.20</strong></label></p>
+                <p><input type="checkbox" name="topping"><label for="topping">Bacon <strong>£0.20</strong></label></p>
+        </fieldset>
+   
+        <fieldset>
+            <legend>Extras</legend>
+                <p><input type="checkbox" name="extra"><label for="extra">Chips <strong>£2.00</strong></label></p>
+                 <p><input type="checkbox" name="extra"><label for="extra">Garlic Bread <strong>£5.00</strong></label></p>
+                 <p><input type="checkbox" name="extra"><label for="extra">Nachos <strong>£6.00</strong></label></p>
+        </fieldset>
+        
+        <fieldset>
+            <legend> Delivery Information </legend>
+                <p><label for="Deliv">Address Line 1</label><input type="text"></p>
+                <p><label for="Deliv">Address Line 2</label><input type="text"></p>
+                <p><label for="Deliv">Post Code</label><input type="text"></p>
+        </fieldset>
+        
+        <p><input type="submit" value="Place Order!"></p>
+        
+    </form>
+    
+        </div>
+
+				
+    <div id="Footer" align=center>
+        <p id="clock"></p>
+    </div>
+				
+</div>
+
+    
+</body>
+</html>
